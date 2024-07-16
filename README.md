@@ -27,9 +27,11 @@ Dans un environnement de développement, chaque développeur peut utiliser une b
 spring.config.import=optional:application.local.properties
 ```
 
-> **IMPORTANT :** Pensez à remplacer `application.local.properties` par le nom que vous avez utilisé.
+> [!IMPORTANT]
+> Pensez à remplacer `application.local.properties` par le nom que vous avez utilisé.
 
-> **NOTE :** Le mot clé `optional:` permet de préciser à l'application de n'importer le fichier que s'il existe, évitant ainsi une erreur au démarrage.
+> [!NOTE]
+> Le mot clé `optional:` permet de préciser à l'application de n'importer le fichier que s'il existe, évitant ainsi une erreur au démarrage.
 
 ### Exemple de `application.local.properties`
 
@@ -41,7 +43,8 @@ spring.datasource.password=localpassword
 
 ### Ajouter à `.gitignore`
 
-> **TIP :** Ajoutez le fichier local à `.gitignore` pour éviter de le committer.
+> [!TIP]
+> Ajoutez le fichier local à `.gitignore` pour éviter de le committer.
 
 ```gitignore
 # Local application properties
