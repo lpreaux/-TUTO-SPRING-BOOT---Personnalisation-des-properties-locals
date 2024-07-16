@@ -1,9 +1,12 @@
 # Comment configurer des valeurs par défaut pour les propriétés d'une application Spring Boot tout en permettant leur personnalisation locale
 
 ---
+
 source: [Github](https://github.com/lpreaux/-TUTO-SPRING-BOOT---Personnalisation-des-properties-locals.git)  
 Le dépot de source contient également du code d'exemple
+
 ---
+
 Il est essentiel de sauvegarder et de committer dans Git les propriétés contenues dans `application.properties` afin de réduire le nombre de configurations nécessaires chaque fois que l'on récupère le projet ou une nouvelle version du projet. Cependant, certaines propriétés, comme celles de la source de données, peuvent varier en fonction de l'environnement de chaque développeur :
 
 ```properties
